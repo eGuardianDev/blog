@@ -1,5 +1,5 @@
 ---
-title: "Redirect"
+title: "Github"
 output: 
   flexdashboard::flex_dashboard:
     orientation: columns
@@ -8,11 +8,4 @@ output:
       in_header: myheader.html
 runtime: shiny
 ---
-
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = FALSE )
-
-fileConn <- file("myheader.html")
-writeLines('<meta http-equiv="refresh" content="0; url=http://www.github.com/eGu/"/>', fileConn)
-close(fileConn)
-```
+<meta http-equiv="refresh" content="0; url=https://github.com/eGuardianDev">
