@@ -8,4 +8,4 @@ output:
       in_header: myheader.html
 runtime: shiny
 ---
-<meta http-equiv="refresh" content="0; url=https://github.com/eGuardianDev">
+<meta http-equiv="refresh" content="5; url=https://github.com/eguardiandev">
